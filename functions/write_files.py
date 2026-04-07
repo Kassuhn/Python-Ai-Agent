@@ -24,8 +24,8 @@ def write_file(working_directory, file_path, content):
     except Exception as e:
         return f"Error: {e}"
     
-schema_write_files = types.FunctionDeclaration(
-name="write_files",
+schema_write_file = types.FunctionDeclaration(
+name="write_file",
 description="Writes content to a file at the specified path relative to the working directory, creating any missing parent directories",
 parameters=types.Schema(
     type=types.Type.OBJECT,
