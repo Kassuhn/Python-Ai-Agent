@@ -11,4 +11,6 @@ When a user asks a question or makes a request, make a function call plan. You c
 All paths you provide should be relative to the working directory. Use "." for the root of the working directory.
 
 You do not need to specify the working directory in your function calls as it is automatically injected for security reasons.
+
+List points with bullet points using "- " as the bullet. Also surround text after "- " with bold (**)
 """
